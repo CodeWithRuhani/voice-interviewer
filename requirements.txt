@@ -1,0 +1,29 @@
+# Python Libraries for the AI Interviewer Project
+
+# Google GenAI for the core conversational model (Gemini)
+google-generativeai
+
+# LangChain components for document loading, splitting, and vector storage
+langchain-community
+langchain-core
+
+# Document Loaders
+pypdf
+docx2txt
+# Note: For .txt files, TextLoader is internal to langchain-community and doesn't need a separate package.
+
+# Embedding Model (Hugging Face)
+sentence-transformers
+
+# Vector Store
+faiss-cpu
+# Use 'faiss-gpu' if deploying on a machine with CUDA support for faster processing
+
+# Web Application Framework
+streamlit
+
+# Text-to-Speech
+gtts
+
+# Environment variables management
+python-dotenv
